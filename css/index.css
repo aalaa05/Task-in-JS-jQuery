@@ -1,0 +1,179 @@
+.myColor
+{
+    color: #23b8c7b3;
+}
+.bg-myColor
+{
+    color: #23b8c7b3;
+}
+
+
+
+/*==================================================================
+                         Work TO - DOS  
+==================================================================*/
+
+#itemsContainer
+{
+    box-shadow:1px 1px 10px #23b8c7b3, -1px 7px 0px honeydew;
+    border-radius: 11px;
+}
+
+/*==================================================================
+                         HUSTLINE(Audio)  
+==================================================================*/
+
+#hustlineDive h2
+{
+    font-size: 6rem;
+}
+.aduioDiv
+{
+    display: none;
+    
+}
+
+
+.headOfSection{
+    text-align: center;
+    width: 100%;
+    background-color: #8080802e ;
+    transform: skew(-30deg);
+    padding: 5px 20px;
+    box-shadow:1px 1px 10px #23b8c7b3, -1px 7px 0px honeydew;
+}
+
+
+
+
+/*==================================================================
+                         CountDown Timer
+==================================================================*/
+
+#countDown .count-item
+{
+    text-align: center;
+    border: 1px solid #23b8c7b3;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    font-family: initial;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    margin: auto;
+    background-color: #23b8c7b3;
+    box-shadow: 1px 1px 10px #23b8c7b3, -1px 7px 0px honeydew;
+}
+#countDown h2
+{
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+
+/*==================================================================
+                         R G B
+==================================================================*/
+
+#rbg h2
+{
+    font-size: 7rem;
+}
+
+#rbg .redDiv
+{
+    font-size: 11rem;
+    font-family: monospace;
+    border: 0px solid red;
+    text-align: center;
+    color: red;
+    border-radius: 50%;
+    box-shadow: 1px 4px 46px red, -1px 7px 1px honeydew;
+    background-color: red;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#rbg .greenDiv
+{
+    font-size: 11rem;
+    font-family: monospace;
+    border: 0px solid green;
+    text-align: center;
+    color: green;
+    border-radius: 50%;
+    box-shadow: 1px 4px 46px green, -1px 7px 1px honeydew;
+    background-color: green;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#rbg .blueViv
+{
+    font-size: 11rem;
+    font-family: monospace;
+    border: 0px solid blue;
+    text-align: center;
+    color: blue;
+    border-radius: 50%;
+    box-shadow: 1px 4px 46px blue, -1px 7px 1px honeydew;
+    background-color: blue;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/*==================================================================
+                         Form Validation
+==================================================================*/
+.myBtn
+{
+
+    border-radius: 28px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 6px;
+    padding: 8px 46px;
+    transition: all .5s;
+    font-weight: 600;
+    color: #23b8c7b3;
+    background-color: #fff;
+    border:2px solid #23b8c7b3;
+}
+
+.myBtn:hover ,.myBtn:focus
+{
+  color: #fff;
+  background-color: #23b8c7b3;
+  border:2px solid #23b8c7b3;
+}
+.form-control.is-valid:focus
+{
+    border-color: #23b8c7b3;
+}
+.form-control.is-valid
+{
+    border-color: #23b8c7b3;
+    box-shadow: 0 0 0 0.1rem #23b8c7b3 !important; 
+    background-image: url("../images/check.png");
+}
+

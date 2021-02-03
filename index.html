@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!-- Work TO - DOS -->
+
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <div class="w-75 m-auto">
+                            <div class="headOfSection">
+                                <h2>
+                                    Q1
+                                </h2>
+                            </div>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-md-9 m-auto">
+                        <div class="jumbotron jumbotron-fluid my-5" id="itemsContainer">
+                            <div class="container text-center">
+                                <h2 class="display-4 myColor">WORK TO - DOS</h2>
+                                <br>
+                                <h5>Enter text into the input field to add items to your list.</h5>
+                                <h5>Click the item to mark it as complete.</h5>
+                                <h5>Click the "X" to remove the item from your list.</h5>
+                                <div class="form-group d-flex justify-content-center">
+                                    <input type="text" name="" id="itemInput" class="form-control w-75 mr-2"
+                                        placeholder="New item" aria-describedby="helpId">
+
+                                    <a class="btn btn-primary " href="#" role="button" id="addBtn">Add</a>
+
+
+                                </div>
+                                <div class="w-75 m-auto px-5">
+                                    <div id="itemsDemo">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- HUSTLINE(Audio)   -->
+    <div class="container">
+        <div class="w-75 m-auto">
+            <div class="headOfSection">
+                <h2>
+                    Q2
+                </h2>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <section id="hustline" class="py-5">
+        <div class="container py-5">
+            <div class="row py-5 my-5">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8 text-center">
+                    <div id="hustlineDive">
+                        <h2>HUSTLINE</h2>
+                    </div>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+        </div>
+        <div class="aduioDiv">
+            <audio controls autoplay loop id="audioPlay" loop>
+                <source src="aduios/bgsound.mp3" />
+                <source src="aduios/bgsound.wav" />
+            </audio>
+
+        </div>
+    </section>
+    <br><br>
+
+
+    <!-- CountDown Timer -->
+    <div class="container">
+        <div class="w-75 m-auto">
+            <div class="headOfSection">
+                <h2>
+                    Q3
+                </h2>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+
+    <section id="countDown">
+        <div class="container py-5 my-5">
+            <h2 class="myColor">
+                We are coming soon.
+            </h2>
+            <div class="row w-75 m-auto">
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <h3 id="days"></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <h3 id="hours"></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <h3 id="minutes"></h3>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="count-item">
+                        <h3 id="seconds"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br>
+
+
+    <!-- R G B -->
+
+    <div class="container">
+        <div class="w-75 m-auto">
+            <div class="headOfSection">
+                <h2>
+                    Q4
+                </h2>
+            </div>
+
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <section id="rbg" class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="redDiv">
+                        <h2>R</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="greenDiv">
+                        <h2>R</h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="blueViv">
+                        <h2>R</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <!-- Form Validation -->
+
+    <div class="container">
+        <div class="w-75 m-auto">
+            <div class="headOfSection">
+                <h2>
+                    Q5
+                </h2>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="formSection">
+        <div class="container py-5">
+
+            <div class="form-group">
+                <label>user name :</label>
+                <input class="form-control" type="text" id="userNameInput">
+
+                <div class="text-danger mt-2 d-none alert alert-danger" id="userNameAlert">
+                    Please Enter Your Name Start With Capital Char
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Email address :</label>
+                <input class="form-control" type="email" id="emailAdressInput">
+                <div class="text-danger mt-2 d-none alert alert-danger" id="emailAdressAlert">
+                    Please Enter Valide Email
+                </div>
+            </div>
+            <div class="form-group">
+                <label>phone:</label>
+                <input class="form-control" type="number" id="userPhoneInput">
+                <div class="text-danger mt-2 d-none alert alert-danger" id="userPhoneAlert">
+                    Please Enter Right Number
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" type="text" id="textArea" placeholder="Entre your message"
+                    rows="4"></textarea>
+                <div class="d-flex myColor py-2 mt-2">
+                    <span id="numT">
+
+                    </span>
+                    <p class="muted px-3" id="textA">
+
+                    </p>
+
+                </div>
+            </div>
+            <br>
+            <button onclick="addUser()" class="btn myBtn">Submit</button>
+
+        </div>
+
+
+        <div class="container py-4 w-75">
+            <table class="table d-none text-center" id="table">
+                <thead>
+                    <th>User Number</th>
+                    <th>User Name</th>
+                    <th>User Email</th>
+                    <th>User Phone </th>
+                </thead>
+
+                <tbody id="tableBody" class="w-100">
+
+                </tbody>
+            </table>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
